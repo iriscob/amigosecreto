@@ -13,6 +13,7 @@ function agregarAmigo() { //funcion agregar nombres
   nombreInput.value = ""; // Limpia el campo de entrada
 
   actualizarListaAmigos(); // funcion muestra la lista de amigos
+  nombreInput.focus();
 }
 
 function actualizarListaAmigos() {
